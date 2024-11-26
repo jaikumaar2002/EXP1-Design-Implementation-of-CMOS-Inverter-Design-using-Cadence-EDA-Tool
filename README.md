@@ -67,16 +67,27 @@ ii)	Create Schematic Cell view.
 •	File-New-Cell view
 
 •	Setup the new file form
+
 •	Library: Select the one you created.
+
 •	Cell: Give the experiment name Ex: Inverter ViewSchematic
+
 •	Type: Schematic press OK
+
 •	Add the required components from the libraries and make the connections.
+
 •	Go to instance fixed menu or use shortcut key “I” from keypad to go instances
+
 •	Click on browse. This opens the library browser
+
 •	Now select the appropriate library for components like 
+
 •	Gpdk45 ------------------------nmos1v, pmos1v
+
 •	Create Input and Output pins
+
 •	Make the connections by using fixed narrow wire key
+
 •	Click Check and Save button
 
 ![362169200-5afce444-518f-4a9a-a480-332aba34319c](https://github.com/user-attachments/assets/5d961363-ea40-409a-9928-2c97fe307030)
@@ -87,15 +98,25 @@ ii)	Create Schematic Cell view.
 iii)	Creating the Symbol for schematic Cell view
 
 •	In the schematic window, execute 
-•Create – Cell view – From Cell view
+
+•   Create – Cell view – From Cell view
+
 •	The cell view from cell view window appears
+
 •	Check Lib Name, Cell Name, From View name must be schematic Press ok
+
 •	Now Symbol generation form appears. Click Ok If No changes required
+
 •	A new window with with default symbol is created.
+
 •	Edit the symbol if you want to give actual symbol shape else continue.
+
 •	Execute Create-Cell view-from cell view
+
 •	Library Name and Cell Name must be same which you have used for schematic. Press OK
+
 •	Check for the position of pin side.Prss OK
+
 •	Edit for the shape by Create-Shape-Choose required options to edit.
 
 ![358526104-e947dcda-b023-4668-a955-a5faf0949702](https://github.com/user-attachments/assets/081455c9-bd19-4a0e-a80a-6226b1a831bd)
@@ -105,11 +126,17 @@ iii)	Creating the Symbol for schematic Cell view
 iv)	Creating the new test cell view
 
 •	Go to CIW window, Execute File-New-Cell view
+
 •	Setup the new file form
+
 •	Library: Select the one you created.
+
 •	Cell: Cell name must be different from the name used in schematic cell view. Ex: Inverter_test
+
 •	View: Schematic
+
 •	Type: Schematic press OK
+
 •	Follow the step 3(ii) d to make the required connections
 
 ![362169330-96411f83-8434-48ef-a717-29dba554a7ae](https://github.com/user-attachments/assets/fc4d6d88-ff92-4e10-a295-80308b15893f)
@@ -118,14 +145,23 @@ iv)	Creating the new test cell view
 
  
 Analog simulation by SPECTRE.
+
 •	In test cell view window
+
 •	Launch – ADE L(Analog Design Environment)
+
 •	Execute Setup—Simulation/directory/Host A new window opens
+
 •	Set the simulation window to spectre and click ok
+
 •	Execute Analysis – Choose. A window opens.
+
 •	Select the type and set the specifications and press OK
+
 •	Execute Output s—to be plotted – Select on Schematic
+
 •	Then Select the INPUT WIRE(Vin ) and OUTPUT WIRE(Vout) from your test Schematic using mouse
+
 •	Execute Simulation -- Net list and Run
 
 ![358526539-3aac50ec-bc0f-406e-be2e-a504b8afa8c9](https://github.com/user-attachments/assets/8d3babce-bbf6-4981-88ab-0f11643251c4)
